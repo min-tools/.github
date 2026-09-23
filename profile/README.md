@@ -4,7 +4,7 @@
 
 <h1 align="center">Min Tools</h1>
 
-<p align="center"><strong>Native Mac apps that keep to themselves.</strong></p>
+<p align="center"><strong>Apps that keep to themselves.</strong></p>
 
 <p align="center">
   Min Tools is a collection of focused apps built to feel at home on the Mac.<br>
