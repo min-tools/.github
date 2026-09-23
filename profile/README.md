@@ -32,26 +32,31 @@
 <table>
   <tr>
     <td width="33%" align="center" valign="top">
+      <br>
       <a href="https://min.tools/langmin/"><img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/langmin.png" width="88" alt="Langmin icon"></a>
       <h3>Langmin</h3>
       <p>Your language assistant for the whole Mac.</p>
       <p>Proofread, rewrite, explain, summarize, translate, and look words up from any app. Work with recordings, documents, and screenshots using Apple Intelligence on device or your own provider key.</p>
-      <p><a href="https://min.tools/langmin/">Website</a> · <a href="https://github.com/min-tools/langmin-macos">Source</a></p>
     </td>
     <td width="33%" align="center" valign="top">
+      <br>
       <a href="https://min.tools/pastemin/"><img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/pastemin.png" width="88" alt="Pastemin icon"></a>
       <h3>Pastemin</h3>
       <p>Your clipboard, ready when you need it.</p>
       <p>Keep a searchable history of copied text and images. Open it from any app, find an earlier item, and put it back on the clipboard in a few keystrokes.</p>
-      <p><a href="https://min.tools/pastemin/">Website</a> · <a href="https://github.com/min-tools/pastemin-macos">Source</a></p>
     </td>
     <td width="33%" align="center" valign="top">
+      <br>
       <a href="https://min.tools/netmin/"><img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/netmin.png" width="88" alt="Netmin icon"></a>
       <h3>Netmin</h3>
       <p>Network answers without the terminal.</p>
       <p>Inspect DNS, routing, local devices, mail, TLS, websites, and ports with 84 tools, readable overviews, and the raw output beside them.</p>
-      <p><a href="https://min.tools/netmin/">Website</a> · <a href="https://github.com/min-tools/netmin-macos">Source</a></p>
     </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><p><a href="https://min.tools/langmin/">Website</a> · <a href="https://github.com/min-tools/langmin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/pastemin/">Website</a> · <a href="https://github.com/min-tools/pastemin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/netmin/">Website</a> · <a href="https://github.com/min-tools/netmin-macos">Source</a></p></td>
   </tr>
 </table>
 
