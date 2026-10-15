@@ -56,8 +56,8 @@
   </tr>
   <tr>
     <td width="33%" align="center"><p><a href="https://min.tools/langmin/">Website</a> · <a href="https://github.com/min-tools/langmin-macos">Source</a></p></td>
-    <td width="33%" align="center"><p><a href="https://min.tools/pastemin/">Website</a> · <a href="https://github.com/min-tools/pastemin-macos">Source</a></p></td>
-    <td width="33%" align="center"><p><a href="https://min.tools/netmin/">Website</a> · <a href="https://github.com/min-tools/netmin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/pastemin/">Website</a> · <a href="https://apps.apple.com/app/id6814809346">Mac App Store</a> · <a href="https://github.com/min-tools/pastemin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/netmin/">Website</a> · <a href="https://apps.apple.com/app/id6814809132">Mac App Store</a> · <a href="https://github.com/min-tools/netmin-macos">Source</a></p></td>
   </tr>
 </table>
 
@@ -109,7 +109,7 @@
     </td>
   </tr>
   <tr>
-    <td width="33%" align="center"><p><a href="https://min.tools/keymin/">Website</a> · <a href="https://github.com/min-tools/keymin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/keymin/">Website</a> · <a href="https://apps.apple.com/app/id6820648683">Mac App Store</a> · <a href="https://github.com/min-tools/keymin-macos">Source</a></p></td>
     <td width="33%" align="center"><p><a href="https://min.tools/agemin/">Website</a> · <a href="https://github.com/min-tools/agemin-macos">Source</a></p></td>
     <td width="33%" align="center"><p><a href="https://min.tools/paletmin/">Website</a> · <a href="https://chromewebstore.google.com/detail/paletmin-palette-toggle/kapadenkddlnndfhddhpnodnhhliikmo">Chrome Web Store</a> · <a href="https://addons.mozilla.org/addon/paletmin-palette-toggle/">Mozilla Add-ons</a><br>Source for <a href="https://github.com/min-tools/paletmin-chrome">Chrome</a> · <a href="https://github.com/min-tools/paletmin-firefox">Firefox</a></p></td>
   </tr>
