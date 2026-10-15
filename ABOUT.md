@@ -21,6 +21,7 @@ The current apps are for macOS, Chrome, and Firefox. Linux and Windows versions 
 - [Pastemin for macOS](https://github.com/min-tools/pastemin-macos) — searchable clipboard history for copied text and images.
 - [Netmin for macOS](https://github.com/min-tools/netmin-macos) — network diagnostics for DNS, routing, local devices, mail, TLS, websites, and ports.
 - [Keymin for macOS](https://github.com/min-tools/keymin-macos) — an editor for the skhd hotkey daemon's configuration.
+- [Agemin for macOS](https://github.com/min-tools/agemin-macos) — file encryption and decryption in the age format with SSH and age keys or a passphrase.
 - [Paletmin for Chrome](https://github.com/min-tools/paletmin-chrome) and [Paletmin for Firefox](https://github.com/min-tools/paletmin-firefox) — a browser extension that switches the current tab between a website's light and dark palette.
 
 Product pages, privacy policies, terms, and support are published at [min.tools](https://min.tools/).

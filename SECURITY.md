@@ -8,6 +8,7 @@ Report security vulnerabilities privately. Do not post vulnerability details in 
 | Pastemin for macOS | [Report a Pastemin vulnerability](https://github.com/min-tools/pastemin-macos/security/advisories/new) | [Pastemin privacy](https://min.tools/pastemin/privacy/) |
 | Netmin for macOS | [Report a Netmin vulnerability](https://github.com/min-tools/netmin-macos/security/advisories/new) | [Netmin privacy](https://min.tools/netmin/privacy/) |
 | Keymin for macOS | [Report a Keymin vulnerability](https://github.com/min-tools/keymin-macos/security/advisories/new) | [Keymin privacy](https://min.tools/keymin/privacy/) |
+| Agemin for macOS | [Report an Agemin vulnerability](https://github.com/min-tools/agemin-macos/security/advisories/new) | [Agemin privacy](https://min.tools/agemin/privacy/) |
 | Paletmin for Chrome | [Report a Paletmin for Chrome vulnerability](https://github.com/min-tools/paletmin-chrome/security/advisories/new) | [Paletmin privacy](https://min.tools/paletmin/privacy/) |
 | Paletmin for Firefox | [Report a Paletmin for Firefox vulnerability](https://github.com/min-tools/paletmin-firefox/security/advisories/new) | [Paletmin for Firefox privacy](https://github.com/min-tools/paletmin-firefox/blob/main/PRIVACY.md) |
 
@@ -17,6 +18,7 @@ If GitHub does not show a private reporting form for the affected repository, us
 - [Pastemin support](https://min.tools/pastemin/support/)
 - [Netmin support](https://min.tools/netmin/support/)
 - [Keymin support](https://min.tools/keymin/support/)
+- [Agemin support](https://min.tools/agemin/support/)
 - [Paletmin support](https://min.tools/paletmin/support/)
 
 Include the affected app and version, your macOS or browser version, the security impact, and the shortest reliable steps to reproduce the issue. Remove credentials, private content, and unrelated data from logs or screenshots.

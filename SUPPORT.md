@@ -8,6 +8,7 @@ Choose the app you need help with:
 | Pastemin for macOS | [Pastemin support](https://min.tools/pastemin/support/) | [Pastemin issues](https://github.com/min-tools/pastemin-macos/issues) | [Pastemin privacy](https://min.tools/pastemin/privacy/) |
 | Netmin for macOS | [Netmin support](https://min.tools/netmin/support/) | [Netmin issues](https://github.com/min-tools/netmin-macos/issues) | [Netmin privacy](https://min.tools/netmin/privacy/) |
 | Keymin for macOS | [Keymin support](https://min.tools/keymin/support/) | [Keymin issues](https://github.com/min-tools/keymin-macos/issues) | [Keymin privacy](https://min.tools/keymin/privacy/) |
+| Agemin for macOS | [Agemin support](https://min.tools/agemin/support/) | [Agemin issues](https://github.com/min-tools/agemin-macos/issues) | [Agemin privacy](https://min.tools/agemin/privacy/) |
 | Paletmin for Chrome | [Paletmin support](https://min.tools/paletmin/support/) | [Paletmin for Chrome issues](https://github.com/min-tools/paletmin-chrome/issues) | [Paletmin privacy](https://min.tools/paletmin/privacy/) |
 | Paletmin for Firefox | [Paletmin support](https://min.tools/paletmin/support/) | [Paletmin for Firefox issues](https://github.com/min-tools/paletmin-firefox/issues) | [Paletmin for Firefox privacy](https://github.com/min-tools/paletmin-firefox/blob/main/PRIVACY.md) |
 
@@ -19,6 +20,6 @@ When reporting a problem, include:
 - clear steps that reproduce the problem; and
 - relevant error text or screenshots after removing private information.
 
-Never include API keys, passwords, private clipboard contents, sensitive documents, hotkey commands that reveal private paths, private page content, or unrelated network data.
+Never include API keys, passwords, passphrases, private keys, encrypted files, private clipboard contents, sensitive documents, hotkey commands that reveal private paths, private page content, or unrelated network data.
 
 For a security vulnerability, follow [SECURITY.md](SECURITY.md) and do not post the details in a public issue.

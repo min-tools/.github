@@ -7,8 +7,7 @@
 <p align="center"><strong>Focused apps that keep to themselves.</strong></p>
 
 <p align="center">
-  Min Tools is a growing collection of small apps built around privacy, each at home where it runs.<br>
-  Every one does a single job, talks only to the services you choose, and publishes its source on GitHub so you can see for yourself. No Min&nbsp;Tools accounts, analytics, or servers.
+  Min Tools builds small, privacy-first apps with publicly available source code that run locally, connect only to services you choose, and have no accounts, analytics, or tracking servers.
 </p>
 
 <p align="center">
@@ -87,14 +86,21 @@
 
 <table>
   <tr>
-    <td width="50%" align="center" valign="top">
+    <td width="33%" align="center" valign="top">
       <br>
       <a href="https://min.tools/keymin/"><img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/keymin.png" width="88" alt="Keymin icon"></a>
       <h3>Keymin</h3>
       <p>Hotkeys for skhd, without the syntax.</p>
       <p>Edit the configuration of the skhd hotkey daemon in a native Mac app. Record a shortcut, pick the key and modifiers, write the command or set per-app commands, and Keymin writes the file back in skhd's own syntax. Comments and untouched lines stay as they were, and Keymin never runs the commands it edits.</p>
     </td>
-    <td width="50%" align="center" valign="top">
+    <td width="33%" align="center" valign="top">
+      <br>
+      <a href="https://min.tools/agemin/"><img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/agemin.png" width="88" alt="Agemin icon"></a>
+      <h3>Agemin</h3>
+      <p>age encryption, without the terminal.</p>
+      <p>Encrypt files for the SSH and age keys of the people who should open them, or with a passphrase, and decrypt what they send you with your own keys. Agemin reads and writes the standard age format itself, in a sandboxed Mac app with no age tool to install, no account, and no network entitlement.</p>
+    </td>
+    <td width="33%" align="center" valign="top">
       <br>
       <a href="https://min.tools/paletmin/"><img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/paletmin.png" width="88" alt="Paletmin icon"></a>
       <h3>Paletmin</h3>
@@ -103,20 +109,27 @@
     </td>
   </tr>
   <tr>
-    <td width="50%" align="center"><p><a href="https://min.tools/keymin/">Website</a> · <a href="https://github.com/min-tools/keymin-macos">Source</a></p></td>
-    <td width="50%" align="center"><p><a href="https://min.tools/paletmin/">Website</a> · <a href="https://chromewebstore.google.com/detail/paletmin-palette-toggle/kapadenkddlnndfhddhpnodnhhliikmo">Chrome Web Store</a> · <a href="https://addons.mozilla.org/addon/paletmin-palette-toggle/">Mozilla Add-ons</a><br>Source for <a href="https://github.com/min-tools/paletmin-chrome">Chrome</a> · <a href="https://github.com/min-tools/paletmin-firefox">Firefox</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/keymin/">Website</a> · <a href="https://github.com/min-tools/keymin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/agemin/">Website</a> · <a href="https://github.com/min-tools/agemin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/paletmin/">Website</a> · <a href="https://chromewebstore.google.com/detail/paletmin-palette-toggle/kapadenkddlnndfhddhpnodnhhliikmo">Chrome Web Store</a> · <a href="https://addons.mozilla.org/addon/paletmin-palette-toggle/">Mozilla Add-ons</a><br>Source for <a href="https://github.com/min-tools/paletmin-chrome">Chrome</a> · <a href="https://github.com/min-tools/paletmin-firefox">Firefox</a></p></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/keymin-hero-dark.png">
         <img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/keymin-hero-light.png" alt="Keymin showing a list of skhd bindings and the editor for one shortcut, with its modifiers, key, and modes.">
       </picture>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/agemin-hero-dark.png">
+        <img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/agemin-hero-light.png" alt="Agemin showing the Encrypt page with a chosen file, recipient chips with avatars, and the result of an encryption.">
+      </picture>
+    </td>
+    <td width="33%" valign="top">
       <img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/paletmin-hero.png" alt="Paletmin showing the same website in its light and dark palette, with the Auto, Dark, and Light toolbar icons.">
     </td>
   </tr>
@@ -127,12 +140,12 @@
 | | |
 | --- | --- |
 | **Native to where it runs** | The Mac apps use Swift, AppKit, and SwiftUI on Apple silicon and follow your Mac's appearance, contrast, accent, and reduced-motion settings. Paletmin is plain JavaScript inside Chrome or Firefox, with an icon drawn for their light and dark toolbars. |
-| **Sandboxed** | The Mac apps run in the App Sandbox with Hardened Runtime and need no administrator access. Pastemin's direct builds can request Accessibility access for optional automatic paste; its App Store edition uses manual paste. Keymin edits the file you choose. Paletmin runs inside the browser with only the permissions it needs. |
-| **Keyboard first** | Langmin and Pastemin open from other apps. Netmin lets you find tools and run checks without leaving the keyboard. Keymin records a shortcut as you press it. Paletmin takes a browser shortcut. |
+| **Sandboxed** | The Mac apps run in the App Sandbox with Hardened Runtime and need no administrator access. Pastemin's direct builds can request Accessibility access for optional automatic paste; its App Store edition uses manual paste. Keymin edits the file you choose; Agemin reads the key folders you choose. Paletmin runs inside the browser with only the permissions it needs. |
+| **Keyboard first** | Langmin and Pastemin open from other apps. Netmin lets you find tools and run checks without leaving the keyboard. Keymin records a shortcut as you press it. Agemin encrypts and decrypts with ⌘⏎ and switches pages with ⌘1 to ⌘4. Paletmin takes a browser shortcut. |
 | **No Min Tools account** | None requires an account with Min Tools or contains analytics or advertising trackers. |
-| **Local by default** | Pastemin keeps clipboard history on your Mac. Langmin stores provider keys in Keychain. Netmin keeps complete diagnostic output in memory unless you export it. Keymin writes only the configuration file you chose. Paletmin keeps each tab's mode and the browser's light or dark setting, nothing else. |
-| **Connections stay explicit** | Langmin connects to providers and websites you choose. Netmin contacts the targets and lookup services required by each check. Pastemin never uploads clipboard history, Keymin has no network entitlement, and Paletmin makes no network requests at all. |
-| **Localized** | Langmin supports 30 interface languages, Pastemin 31, and Netmin 27. Keymin and Paletmin are in English. |
+| **Local by default** | Pastemin keeps clipboard history on your Mac. Langmin stores provider keys in Keychain. Netmin keeps complete diagnostic output in memory unless you export it. Keymin writes only the configuration file you chose. Agemin keeps keys and passphrases in memory only while they are used and writes only where you save. Paletmin keeps each tab's mode and the browser's light or dark setting, nothing else. |
+| **Connections stay explicit** | Langmin connects to providers and websites you choose. Netmin contacts the targets and lookup services required by each check. Pastemin never uploads clipboard history, Keymin and Agemin have no network entitlement, and Paletmin makes no network requests at all. |
+| **Localized** | Langmin supports 30 interface languages, Pastemin and Agemin 31, and Netmin 27. Keymin and Paletmin are in English. |
 | **Free to start** | The Mac apps start with 30 days of full access without a subscription, keep a free tier afterward, and sell Pro through the App Store. Paletmin is free. |
 
 ## Source you can inspect
@@ -147,6 +160,7 @@ The Mac apps use the [PolyForm Strict License 1.0.0](https://polyformproject.org
 | [pastemin-macos](https://github.com/min-tools/pastemin-macos) | Pastemin for macOS, its documentation, privacy policy, tests, and translations. |
 | [netmin-macos](https://github.com/min-tools/netmin-macos) | Netmin for macOS, its documentation, privacy policy, tests, translations, and command templates. |
 | [keymin-macos](https://github.com/min-tools/keymin-macos) | Keymin for macOS, its documentation, privacy policy, and tests. |
+| [agemin-macos](https://github.com/min-tools/agemin-macos) | Agemin for macOS, its age implementation, documentation, privacy policy, tests, and translations. |
 | [paletmin-chrome](https://github.com/min-tools/paletmin-chrome) | Paletmin for Chrome, its documentation, privacy policy, and a test suite that drives the extension in headless Chromium. |
 | [paletmin-firefox](https://github.com/min-tools/paletmin-firefox) | Paletmin for Firefox, its documentation, privacy policy, and packaging script. |
 
@@ -169,7 +183,7 @@ Coming.
 
 ### macOS
 
-Langmin, Pastemin, Netmin, and Keymin currently require an Apple-silicon Mac running macOS 14 or later. Some Langmin features require newer macOS versions, an enabled Apple feature, or an account with the provider you choose. Keymin edits the configuration of skhd or skhd.zig, which you install yourself.
+Langmin, Pastemin, Netmin, Keymin, and Agemin currently require an Apple-silicon Mac running macOS 14 or later. Some Langmin features require newer macOS versions, an enabled Apple feature, or an account with the provider you choose. Keymin edits the configuration of skhd or skhd.zig, which you install yourself. Agemin implements the age format itself and needs no age tool.
 
 | App | Help | Issues | Privacy |
 | --- | --- | --- | --- |
@@ -177,6 +191,7 @@ Langmin, Pastemin, Netmin, and Keymin currently require an Apple-silicon Mac run
 | Pastemin for macOS | [Support](https://min.tools/pastemin/support/) | [Report a problem](https://github.com/min-tools/pastemin-macos/issues) | [Privacy policy](https://min.tools/pastemin/privacy/) |
 | Netmin for macOS | [Support](https://min.tools/netmin/support/) | [Report a problem](https://github.com/min-tools/netmin-macos/issues) | [Privacy policy](https://min.tools/netmin/privacy/) |
 | Keymin for macOS | [Support](https://min.tools/keymin/support/) | [Report a problem](https://github.com/min-tools/keymin-macos/issues) | [Privacy policy](https://min.tools/keymin/privacy/) |
+| Agemin for macOS | [Support](https://min.tools/agemin/support/) | [Report a problem](https://github.com/min-tools/agemin-macos/issues) | [Privacy policy](https://min.tools/agemin/privacy/) |
 
 ### Windows
 
