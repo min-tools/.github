@@ -97,7 +97,7 @@
       <br>
       <a href="https://min.tools/agemin/"><img src="https://raw.githubusercontent.com/min-tools/.github/main/profile/images/agemin.png" width="88" alt="Agemin icon"></a>
       <h3>Agemin</h3>
-      <p>age encryption, without the terminal.</p>
+      <p>Encrypt with <tt>age</tt>, without the terminal.</p>
       <p>Encrypt files for the SSH and age keys of the people who should open them, or with a passphrase, and decrypt what they send you with your own keys. Agemin reads and writes the standard age format itself, in a sandboxed Mac app with no age tool to install, no account, and no network entitlement.</p>
     </td>
     <td width="33%" align="center" valign="top">
