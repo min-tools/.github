@@ -55,7 +55,7 @@
     </td>
   </tr>
   <tr>
-    <td width="33%" align="center"><p><a href="https://min.tools/langmin/">Website</a> · <a href="https://github.com/min-tools/langmin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/langmin/">Website</a> · <a href="https://apps.apple.com/app/id6814809241">Mac App Store</a> · <a href="https://github.com/min-tools/langmin-macos">Source</a></p></td>
     <td width="33%" align="center"><p><a href="https://min.tools/pastemin/">Website</a> · <a href="https://apps.apple.com/app/id6814809346">Mac App Store</a> · <a href="https://github.com/min-tools/pastemin-macos">Source</a></p></td>
     <td width="33%" align="center"><p><a href="https://min.tools/netmin/">Website</a> · <a href="https://apps.apple.com/app/id6814809132">Mac App Store</a> · <a href="https://github.com/min-tools/netmin-macos">Source</a></p></td>
   </tr>
