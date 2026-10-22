@@ -183,7 +183,7 @@ Coming.
 
 ### macOS
 
-Langmin, Pastemin, Netmin, Keymin, and Agemin currently require an Apple-silicon Mac running macOS 14 or later. Some Langmin features require newer macOS versions, an enabled Apple feature, or an account with the provider you choose. Keymin edits the configuration of skhd or skhd.zig, which you install yourself. Agemin implements the age format itself and needs no age tool.
+Langmin, Pastemin, Netmin, and Keymin are on the Mac App Store, and Agemin is coming. All five currently require an Apple-silicon Mac running macOS 14 or later. Some Langmin features require newer macOS versions, an enabled Apple feature, or an account with the provider you choose. Keymin edits the configuration of skhd or skhd.zig, which you install yourself. Agemin implements the age format itself and needs no age tool.
 
 | App | Help | Issues | Privacy |
 | --- | --- | --- | --- |
