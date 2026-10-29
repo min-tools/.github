@@ -110,7 +110,7 @@
   </tr>
   <tr>
     <td width="33%" align="center"><p><a href="https://min.tools/keymin/">Website</a> · <a href="https://apps.apple.com/app/id6820648683">Mac App Store</a> · <a href="https://github.com/min-tools/keymin-macos">Source</a></p></td>
-    <td width="33%" align="center"><p><a href="https://min.tools/agemin/">Website</a> · <a href="https://github.com/min-tools/agemin-macos">Source</a></p></td>
+    <td width="33%" align="center"><p><a href="https://min.tools/agemin/">Website</a> · <a href="https://apps.apple.com/app/id6823398916">Mac App Store</a> · <a href="https://github.com/min-tools/agemin-macos">Source</a></p></td>
     <td width="33%" align="center"><p><a href="https://min.tools/paletmin/">Website</a> · <a href="https://chromewebstore.google.com/detail/paletmin-palette-toggle/kapadenkddlnndfhddhpnodnhhliikmo">Chrome Web Store</a> · <a href="https://addons.mozilla.org/addon/paletmin-palette-toggle/">Mozilla Add-ons</a><br>Source for <a href="https://github.com/min-tools/paletmin-chrome">Chrome</a> · <a href="https://github.com/min-tools/paletmin-firefox">Firefox</a></p></td>
   </tr>
 </table>
@@ -183,7 +183,7 @@ Coming.
 
 ### macOS
 
-Langmin, Pastemin, Netmin, and Keymin are on the Mac App Store, and Agemin is coming. All five currently require an Apple-silicon Mac running macOS 14 or later. Some Langmin features require newer macOS versions, an enabled Apple feature, or an account with the provider you choose. Keymin edits the configuration of skhd or skhd.zig, which you install yourself. Agemin implements the age format itself and needs no age tool.
+Langmin, Pastemin, Netmin, Keymin, and Agemin are on the Mac App Store and currently require an Apple-silicon Mac running macOS 14 or later. Some Langmin features require newer macOS versions, an enabled Apple feature, or an account with the provider you choose. Keymin edits the configuration of skhd or skhd.zig, which you install yourself. Agemin implements the age format itself and needs no age tool.
 
 | App | Help | Issues | Privacy |
 | --- | --- | --- | --- |
